@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "The Medical Index",
+  "projectDescription": "A curated medical research platform where users can explore the latest published research, subscribe to weekly updates, and stay current with advances across medical specialties.",
   "theme": "almond",
-  "name": "The Medical Index",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -57,20 +55,14 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "mailto:support@themedicalindex.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/introduction"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Browse and search published medical research across specialties",
+    "Weekly curated research digest for subscribers",
+    "Research upload and submission portal",
+    "Specialty-based research filtering and categorization",
+    "Admin-only weekly research update management",
+    "Email notifications for new research publications",
+    "User account management and access controls"
+  ],
+  "publicApiSurface": []
 }
