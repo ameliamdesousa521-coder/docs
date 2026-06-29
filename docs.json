@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "The Medical Index",
   "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
+    "primary": "#23859f",
+    "light": "#fcfcfc",
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -58,19 +58,26 @@
     ]
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Contact",
-        "href": "mailto:support@themedicalindex.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Get Started",
       "href": "/introduction"
     }
   },
-  "footer": {
-    "socials": {}
+  "background": {
+    "decoration": "gradient",
+    "color": {
+      "dark": "#000000"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "thumbnails": {
+    "background": "/images/ScreenShot2026-06-28at9.21.52PM.png"
+  },
+  "metadata": {
+    "timestamp": true
   }
 }
